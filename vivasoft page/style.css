@@ -1,0 +1,553 @@
+
+
+body{margin:0;padding:0;}
+
+
+.navbar{
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    width: 100%;
+    height: 100px;
+    /*! border: 1px solid black; */
+    position: relative;
+    top: -8px;
+  }
+.contener{width:1181px;margin: auto;}
+.logobox {
+    width: 170px;
+    height: 50px;
+    /*! top: 10px; */
+    margin-top: 45px;
+    float: left;
+  
+  }
+
+
+  
+.menubox {
+    width: 1010px;
+    float: left;
+  
+  }
+  .menubox ul li {
+    float: left;
+    margin-right: 23px;
+    list-style: none;
+    padding: 20px 0px 16px 0px;
+    /*! position: relative; */
+  }
+  .menubox ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    /*! place-items: right; */
+    margin-left: ;
+    padding: 10px;
+    color:#00156A;
+    font-family: arial;
+    font-weight: bold;
+}
+.menubox ul li a i {
+    color: #3866FF;
+    font-weight: bold;
+    font-size: 13px;
+  }
+ 
+  .menubox ul {
+    margin-left: 250px;
+    margin-top: 32px;
+  }
+
+  .imgeflag {
+    width: 18px;
+    height: 12px;
+    background: url(https://vivasoftltd.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png);
+    float: left;
+    margin-top: 5px;
+  }
+  .navbutton {
+    padding: 21px 10px 21px 10px;
+    border: 2px solid #4A42EA;
+    border-radius: 15px;
+    background: white;
+    margin: -3px 0px 0px 0px;
+  }
+  .navbutton a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: arial;
+    /*! font-weight: bold; */
+  }
+  .navbutton:hover{background:#4A42EA;}
+  .navbutton:hover a{color:white;}
+  .navcontent {
+    border-bottom: 1px solid #e8e0e0;
+    height: 107px;
+  }
+  .dropdownmemu {
+    width: 231px;
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    display: block;
+    border: 1px solid white;
+    left: 297px;
+    top: 73px;
+    /*! margin-left: 65px; */
+    float: left;
+    background:#F9F9FA;
+    box-shadow: 0px 0px 1px 0px;
+    height: 206px;
+    display: none;
+    transition: 5s;
+  }
+
+  .menubox ul li:hover .dropdownmemu {display: inline;}
+
+
+
+  
+.dropdownmemu li {
+    margin: 0px;
+    padding-bottom: 5px;
+    font-size: 0px;
+    position: relative;
+    border-bottom: 1px solid #2f2f2c26;
+    width: 118%;
+    
+    left: -50px;
+    top: -11px;
+  }
+  .linebar:hover .linebar:first-child {background-color:#F9F9FA;}
+  .linebar:hover .linebar:first-child {background-color:#F9F9FA;}
+  .linebar:hover .linebar:first-child {background-color:#F9F9FA;}
+  .linebar:hover .linebar:first-child {background:#F9F9FA;}
+  
+  
+
+  .dropdownmemu li a {
+    position: absolute;
+    top: -4px;
+    margin: 10px 0px 0px 21px  ;
+  }
+  .dropdownmemu li {
+    margin: 10px;
+  }
+
+
+  .dropdn2 {
+    left: 431px;
+    top: 53px;
+    height: 268px;
+    box-shadow: 0px 0px 0px 1px beige;
+    width: 200px;
+    border: none;
+  }
+ 
+  .dropdn2 li {
+    margin: 0px;
+    height: 17px;
+    margin: 10px 0px -10px 10px;
+    width: 120%;
+  }
+
+  .drop3 {
+    height: 212px;
+    left: 310px;
+  }
+
+
+  .dropdn3 {
+   
+    left: 736px;
+    width: 100px;
+  }
+
+
+  .countryflag1 {
+    width: 18px;
+    height: 12px;
+    float: left;
+    background: url(https://vivasoftltd.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png);
+    margin: 4px 4px 0px -15px;
+  }
+
+  .countryflag2 {
+    width: 18px;
+    height: 12px;
+    float: left;
+    background: url(https://vivasoftltd.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/de.png);
+    margin: 4px 4px 0px -15px;
+  }
+
+  .countryflag3 {
+    width: 18px;
+    height: 12px;
+    float: left;
+    background: url(https://vivasoftltd.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png);
+    margin: 4px 4px 0px -15px;
+  }
+
+  .countryflag4 {
+    width: 18px;
+    height: 12px;
+    float: left;
+    background: url(https://vivasoftltd.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png);
+    margin: 4px 4px 0px -15px;
+  }
+
+  .countryflag5 {
+    width: 18px;
+    height: 12px;
+    float: left;
+    background: url(https://vivasoftltd.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/sv.png);
+    margin: 4px 4px 0px -15px;
+  }
+
+  .dropdn3 li {
+    width: 140%;
+  }
+
+  /**section 1**/
+
+  #section1 {
+    margin: 0px;
+    padding: 0;
+    display: block;
+    background: #FFF;
+  }
+
+
+  .section1textbox {
+    width: 590px;
+    float: left;
+    box-sizing: content-box;
+  }
+
+  .stextbox {
+    width: 100%;
+  }
+  .stextbox h3 {
+    font-family: arial;
+    padding: 118px 0px 0px 0px;
+    font-size: 18px;
+    font-weight: initial;
+    color: #0A1E72;
+  }
+
+  .stextbox h1 {
+    font-size: 32px;
+    font-family: arial;
+    font-weight: bolder;
+    color: #00156A;
+  }
+
+  .stextbox p {
+    font-size: 17px;
+    color: #001570c7;
+    font-weight: inherit;
+    font-family: arial;
+    line-height: 26px;
+  }
+
+  .textandnumberbox {
+    display: block;
+    float: left;
+  }
+
+  .stnumberbox {
+    width: 165px;
+    float: left;
+   
+    margin-right: 28px;
+  }
+
+  .stnumberbox h1 {
+    font-family: arial;
+    font-size: 40px;
+    font-weight: bold;
+    color: #4A42EA;
+    margin: 30px 0px 0px 0px;
+  }
+
+  .stnumberbox p {
+    font-size: 16px;
+    font-family: arial;
+    color: #040B44E5;
+    font-weight: inherit;
+    margin: 6px 0px 0px 0px;
+  }
+
+  .hirebutton {
+    padding: 19px 30px 19px 30px;
+    margin: 60px 0px 45px 0px;
+    background: #4A42EA;
+    border: none;
+    border-radius: 10px;
+   
+  }
+
+  .hirebutton a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: arial;
+
+  }
+
+  .hirebutton:hover{
+      background-color: white;
+     
+     border: 1px solid #4A42EA;
+  }
+  .hirebutton:hover a{
+    color:#4A42EA;
+  }
+
+  .imgebox {
+    background-image: url(https://vivasoftltd.com/wp-content/uploads/2022/11/We-Deploy-World-Class-Agile-Product-Teams-on-Demand.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 613px;
+    margin-top: 65px;
+  }
+
+  /**img section**/
+
+  
+.slaiderwrepar {
+  display: flex;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.imgeslaider1 img {
+  width: 594px;
+  /*! ime-mode: auto; */
+  font-size: 38px;
+  height: 95px;
+}
+
+
+.vivasoftservicessection {
+  background: #F6F5FE;
+  overflow: hidden;
+  /*! float: left; */
+  /*! position: absolute; */
+  width: 100%;
+}
+.vivasoftworktypeboxwraper h1 {
+  text-align: center;
+  margin-top: 133px;
+  text-transform: capitalize;
+  font-family: arial;
+  font-size: 30px;
+  color: #00156A;
+}
+.pera {
+  text-align: center;
+  width: 995px;
+  margin: auto;
+  font-size: 18px;
+  color: #414452;
+  font-family: arial;
+  margin-bottom: 60px;
+}
+
+
+.vivasoftservicestype {
+  display: flex;
+}
+.servicestype {
+  background: white;
+  margin: 10px;
+  margin-bottom:100px;
+  border-radius: 20px;
+  padding: 39px 15px 25px 25px;
+}
+
+.servicestype:hover.servicestype{
+  box-shadow: 2px 7px 18px -3px #3333;
+}
+
+.servicestype h3 {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: arial;
+  color: #00156A;
+}
+.servicestype p {
+  font-family: arial;
+  line-height: 25px;
+  color: #33313E;
+  font-size: 17px;
+}
+
+.knowmorebutton a {
+  font-size: 18px;
+  text-decoration: none;
+  font-family: arial;
+}
+.knowmorebutton {
+  background: none;
+  border: none;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+/**Most Effective Software Development Outsourcing Service**/
+
+
+
+.MostEffectiveSoftwareDevelopment {
+  float: left;
+  width: 100%;
+}
+.developmentoutsourcingservicesbox h1 {
+  /*! margin: auto; */
+  text-align: center;
+  font-size: 31px;
+  font-family: arial;
+  margin-top: 130px;
+  color: #00156A;
+}
+.pare2  {
+  font-size: 17px;
+  width: 1002px;
+  margin: auto;
+  text-align: center;
+  color: #414452;
+  font-family: arial;
+}
+
+
+.developmentoutsourcingboxwrapercolum {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0px 100px 0px;
+}
+
+.developmentoutsourcingboxwraper {
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+
+.outsourcingminebox {
+  width: 540px;
+  background: #F6F5FE;
+  margin: 17px 27px 10px 0px;
+  border-radius: 30px;
+}
+
+
+.outsourcingminebox img {
+  padding: 50px 10px 10px 10px;
+}
+.outsourcingminebox h3 {
+  color: #3E4071;
+  font-size: 18px;
+  font-family: arial;
+}
+.outsourcingminebox p {
+  width: 254px;
+  margin: auto;
+  padding-bottom: 80px;
+  font-family: arial;
+  font-size: 14px;
+  color: #414039;
+  line-height: 23px;
+  font-weight: initial;
+}
+
+
+/**OurCustomSoftwareDevelopmensectionstyle**/
+
+.OurCustomSoftwareDevelopmensection {
+  display: block;
+  width: 100%;
+  background: #F6F5FE;
+  overflow: hidden;
+  height: 1650px;
+}
+
+.Productsheadline {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 100px;
+  font-family: arial;
+  color: #00156A;
+}
+
+.productpera {
+  text-align: center;
+  width: 1006px;
+  margin: auto;
+  font-size: 17px;
+  padding-bottom: 85px;
+  color: #262628c9;
+  font-family: arial;
+  line-height: 25px;
+}
+
+.OurCustomSoftwareDevelopment {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.ProductsforPartners {
+  width: 48%;
+  margin: 10px 25px 0px 0px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.ProductsforPartners img {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.customsoftwareimg {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.ProductsforPartners img:hover{transform: scale(1.1);}
+
+.ProductsforPartners:nth-child(2) {
+  margin-right: 0px;
+}
+.ProductsforPartners:last-child {
+  margin-right: 0px;
+  position: relative;
+  top: -185px;
+}
+
+
+
+.ProductsforPartners h3 {
+  color: #0B156A;
+  font-size: 20px;
+  font-family: arial;
+  font-weight: inherit;
+}
+.ProductsforPartners p {
+  font-family: arial;
+  color: #333c;
+  font-size: 15px;
+}
+.productforpartnersbutton {
+  font-size: 19px;
+  font-family: arial;
+  font-weight: inherit;
+  border: none;
+  background: none;
+  /*! padding-top: 0px; */
+  padding-bottom: 50px;
+}
+.productforpartnersbutton a {
+  text-decoration: none;
+}
